@@ -59,8 +59,9 @@ const playGame=(userChoice)=>{
             //rock paper
             userWin= compChoice==="paper" ? true : false;
         }
+         showWinner(userWin,compChoice,userChoice);
     }
- showWinner(userWin,compChoice,userChoice);
+
 }
 
 
