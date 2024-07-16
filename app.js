@@ -33,8 +33,8 @@ const genCompChoice=()=>{
 const drawGame=()=>{
     
     msg.innerText="Game was draw! Play again.";
-    msg.style.backgroundColor="yellow";
-    msg.style.color="black";
+    msg.style.backgroundColor="black";
+   
 };
 const playGame=(userChoice)=>{
     const compChoice=genCompChoice();
