@@ -34,6 +34,7 @@ const drawGame=()=>{
     
     msg.innerText="Game was draw! Play again.";
     msg.style.backgroundColor="yellow";
+    msg.style.color="black";
 };
 const playGame=(userChoice)=>{
     const compChoice=genCompChoice();
